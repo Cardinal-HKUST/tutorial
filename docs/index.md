@@ -5,7 +5,11 @@ layout: home
 hero:
   name: "Cardinal Tutorials"
   text: "Some technical tutorials offered by Cardinal@HKUST"
-  tagline: My great project tagline
+  image:
+    src: /assets/cardinal.png
+    alt: Cardinal Logo
+
+  tagline: For Eternal Love and Peace.
   actions:
     - theme: brand
       text: Markdown Examples
@@ -22,4 +26,3 @@ features:
   - title: Feature C
     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
 ---
-
