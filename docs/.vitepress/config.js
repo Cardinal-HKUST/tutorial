@@ -5,6 +5,7 @@ export default defineConfig({
   title: "Cardinal Tutorials",
   description: "Some technical tutorials offered by Cardinal@HKUST",
   // base: "/tutorial",
+  logo: '/cardinal.png',
   lastUpdated: true,
   localSearch: true,
   themeConfig: {

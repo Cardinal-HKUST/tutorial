@@ -6,7 +6,7 @@ hero:
   name: "Cardinal Tutorials"
   text: "Some technical tutorials offered by Cardinal@HKUST"
   image:
-    src: /assets/cardinal.png
+    src: /cardinal.png
     alt: Cardinal Logo
 
   tagline: For Eternal Love and Peace.
