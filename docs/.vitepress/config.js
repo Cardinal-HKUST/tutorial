@@ -10,18 +10,19 @@ export default defineConfig({
   localSearch: true,
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
-    nav: [
-      { text: 'Home', link: '/' },
-      { text: 'Tutorials', link: '/remote-operation-on-server' }
-    ],
+    nav: nav(),
+    // nav: [
+    //   { text: 'Home', link: '/' },
+    //   { text: 'Tutorials', link: '/tutorials/remote-operation-on-server' }
+    // ],
     sidebar: [
       {
         text: 'Tutorials',
         items: [
-          { text: '远程连接服务器', link: '/remote-operation-on-server' },
-          { text: 'GPU设置', link: '/gpu-setup' },
-          { text: 'Markdown Examples', link: '/markdown-examples' },
-          { text: 'Runtime API Examples', link: '/api-examples' }
+          { text: '远程连接服务器', link: '/tutorials/remote-operation-on-server' },
+          // { text: 'GPU设置', link: '/tutorials/gpu-setup' },
+          // { text: 'Markdown Examples', link: '/tutorials/markdown-examples' },
+          // { text: 'Runtime API Examples', link: '/tutorials/api-examples' }
         ]
       }
     ],
@@ -33,3 +34,9 @@ export default defineConfig({
     },
   }
 })
+
+function nav() {
+  return [
+    { text: 'Tutorial', link: '/tutorials/remote-operation-on-server', activeMatch: '/tutorials/' },
+  ]
+}

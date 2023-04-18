@@ -12,17 +12,17 @@ hero:
   tagline: For Eternal Love and Peace.
   actions:
     - theme: brand
-      text: Markdown Examples
-      link: /markdown-examples
-    - theme: alt
-      text: API Examples
-      link: /api-examples
+      text: Go To Tutorials
+      link: /tutorials/remote-operation-on-server.html
+    # - theme: alt
+    #   text: API Examples
+    #   link: /api-examples
 
 features:
-  - title: Feature A
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature B
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature C
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+  - title: Diversity
+    details: Tutorials are offered by veterans with different backgrounds.
+  - title: Collaboration
+    details: By collaborating with people from other fields, it would be easier for cross-disciplinary study.
+  - title: Public
+    details: Everyone's contribution would be highly appreciated.
 ---
